@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import './theme.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Link from '@mui/material/Link';
 import Homepage from './Components/Homepage';
@@ -13,11 +13,11 @@ import Measurements from './Components/Measurements';
 
 function App() {
 
-  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  // const toggleMenu = () => {
+  //   setIsMenuOpen(!isMenuOpen);
+  // };
 
   return (
     <div className="App">
