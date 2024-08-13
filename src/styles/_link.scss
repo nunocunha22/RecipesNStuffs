@@ -1,0 +1,11 @@
+.MuiLink-root {
+    text-decoration: none;
+    color: white !important;
+
+    &:hover {
+        text-decoration: none;
+        background-color: transparent;
+        // box-shadow: 2px 2px 20px cyan;
+        filter: drop-shadow(2px 2px 10px cyan)
+    }
+}
