@@ -28,7 +28,7 @@ export default function Sweet() {
                 <Card>
                     <CardContent>
                         <Link className="listLink" href="suspiros">
-                            <img className="listPicture" src=".\pictures\suspiros.png" alt="suspiros" />
+                            <img className="listPicture" src=".\pictures\suspiros.jpg" alt="suspiros" />
                             <h2>Suspiros</h2>
                         </Link>
                     </CardContent>
