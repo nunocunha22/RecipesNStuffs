@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import './theme.scss';
+import './styles/theme.scss';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Link from '@mui/material/Link';
@@ -9,6 +9,10 @@ import Salty from './Components/Salty';
 import Sweet from './Components/Sweets';
 import Activities from './Components/Activities';
 import Measurements from './Components/Measurements';
+
+import Suspiros from './Components/Sweet_Components/Suspiros';
+import Cookies from './Components/Sweet_Components/Cookies';
+import Macarrons from './Components/Sweet_Components/Macarrons';
 
 
 function App() {
@@ -42,6 +46,10 @@ function App() {
           <Route path="sweet" element={<Sweet />} />
           <Route path="activities" element={<Activities />} />
           <Route path="measurements" element={<Measurements />} />
+
+          <Route path="cookies" element={<Cookies />} />
+          <Route path="macarrons" element={<Macarrons />} />
+          <Route path="suspiros" element={<Suspiros />} />
         </Routes>
       </BrowserRouter>
     </div>

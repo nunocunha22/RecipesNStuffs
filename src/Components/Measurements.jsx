@@ -17,9 +17,7 @@ const rows = [
 
 export default function Measurements() {
     return (
-        <div className="display-grid">
-            <img className="pagePicture" src=".\pictures\bluestain.png" alt="blue stain" />
-
+        <div className="display-grid measurementsPicture">
             <TableContainer className="margin-top-32">
                 <Table sx={{ minWidth: 650 }} aria-label="simple table">
                     <TableHead>

@@ -6,5 +6,15 @@
 
 .display-grid {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: repeat(8, auto);
+}
+
+@media (max-width: 768px) {
+    .display-grid {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+.margin-top-32 {
+    margin-top: 32px;
 }
