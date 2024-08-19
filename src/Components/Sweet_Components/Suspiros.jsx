@@ -1,3 +1,4 @@
+import { Card, CardContent, Link } from "@mui/material";
 import React from "react";
 
 export default function Suspiros() {
@@ -18,10 +19,14 @@ export default function Suspiros() {
                 <li>Corantes em gel ou em pó &#40;opcional&#41;</li>
                 <li>Aromas &#40;opcional&#41;</li>
             </ul>
-            <h2>Preparação</h2>
+            <ul>
+                <li>
+                    <h2>Preparação</h2>
+                </li>
+            </ul>
             <ol>
-                <li>Começar a bater as claras em castelo a uma velocidade baixa até começar a fazer espuma. Adicionar metade do açùcar e continuar a bater na velocidade média.</li>
-                <li>Quando as claras já estiverem, mas ainda "liquidas", adicionar o restante açucar assim como o sumo de limâo.</li>
+                <li>Começar a bater as claras a uma velocidade baixa até começar a fazer espuma. Adicionar metade do açùcar e continuar a bater na velocidade média.</li>
+                <li>Quando as claras já estiverem batidas, mas ainda "líquidas", adicionar o restante açucar assim como o sumo de limâo.</li>
                 <li>Continuar a bater as claras e quando já estiverem firmes adicionar o aroma, se se desejar algum, e continuar a bater até obter o ponto de bico de pássaro.
                     <br />
                     Nota: se se pretender usar 2 aromas ou mais, então bater até as claras ficarem em ponto de bico de pássaro, depois dividir as claras e usar o&#40;s&#41; aroma&#40;s&#41; no passo seguinte &#40;4&#41;.
@@ -38,6 +43,46 @@ export default function Suspiros() {
                 <li>Desligar o forno após os 50min e deixar arrefecer os suspiros dentro do forno desligado.</li>
                 <li>Quando já estiverem frios, colocar os suspiros dentro de uma caixa para que não absorvam humidade</li>
             </ol>
+            <ul>
+                <li>
+                    <h2>Galeria de imagens</h2>
+                </li>
+            </ul>
+            <div className="display-grid-pic">
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/bicos1.jpeg" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\bicos1.jpeg" alt="bicos de pasteleiro" />
+                        </Link>
+                        <h2>Bicos 2C e 1A</h2>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/bicos2.jpeg" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\bicos2.jpeg" alt="bicos de pasteleiro" />
+                        </Link>
+                        <h2>Bicos D66 e 2F</h2>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/suspiros1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\suspiros1.png" alt="suspiros" />
+                        </Link>
+                        <h2>Suspiros 2C e 1A</h2>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/suspiros2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\suspiros2.png" alt="suspiros" />
+                        </Link>
+                        <h2>Suspiros D66 e 2F</h2>
+                    </CardContent>
+                </Card>
+            </div>
+
         </div>
     )
 };
