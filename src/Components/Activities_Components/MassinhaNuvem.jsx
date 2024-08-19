@@ -41,10 +41,7 @@ export default function MassinhaNuvem() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./videos/cloud_dough1.gif" target="_blank" type="video/webm" rel="noopener noreferrer">
-                            {/* <video className="listPictureComponents" controls>
-                                <source src="./videos/cloud_dough1.mp4" type="video/mp4" />
-                            </video> */}
+                        <Link href="./videos/cloud_dough1.gif" rel="noopener noreferrer">
                             <img className="listPictureComponents" src=".\videos\Video1_thumbnail.png" alt="massinha de nuvem" />
                         </Link>
                         <h2>Video 1</h2>
@@ -52,7 +49,7 @@ export default function MassinhaNuvem() {
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./videos/cloud_dough2.mp4" rel="noopener noreferrer">
+                        <Link href="./videos/cloud_dough2.gif" rel="noopener noreferrer">
                             <img className="listPictureComponents" src=".\videos\Video2_thumbnail.png" alt="massinha de nuvem" />
                         </Link>
                         <h2>Video 2</h2>
