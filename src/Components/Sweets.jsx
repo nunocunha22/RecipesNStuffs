@@ -1,9 +1,8 @@
 import { Link } from "@mui/material";
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
+// import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent'
 import React from "react";
-import Suspiros from "./Sweet_Components/Suspiros";
 
 export default function Sweet() {
     return (
@@ -12,7 +11,7 @@ export default function Sweet() {
                 <Card>
                     <CardContent>
                         <Link className="listLink" href="cookies">
-                            <img className="listPicture" src=".\pictures\cookies.jpg" alt="cookies" />
+                            <img className="listPicture" src=".\pictures\cookiess.jpg" alt="cookies" />
                             <h2>Cookies</h2>
                         </Link>
                     </CardContent>
