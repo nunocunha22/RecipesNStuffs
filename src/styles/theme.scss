@@ -54,13 +54,13 @@ code {
 }
 
 .activitiesPicture {
+    background-image: url(../../public/pictures/coloredstain.png);
     background-size: contain;
     height: 100dvh;
 }
 
 .measurementsPicture {
     background-image: url(../../public/pictures/bluestain.png);
-    object-fit: fill;
     background-size: contain;
     height: 100dvh;
 }
