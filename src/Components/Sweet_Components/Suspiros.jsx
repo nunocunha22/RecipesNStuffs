@@ -51,16 +51,16 @@ export default function Suspiros() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/bicos1.jpeg" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\bicos1.jpeg" alt="bicos de pasteleiro" />
+                        <Link href="./pictures/bicos1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\bicos1.png" alt="bicos de pasteleiro" />
                         </Link>
                         <h2>Bicos 2C e 1A</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/bicos2.jpeg" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\bicos2.jpeg" alt="bicos de pasteleiro" />
+                        <Link href="./pictures/bicos2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\bicos2.png" alt="bicos de pasteleiro" />
                         </Link>
                         <h2>Bicos D66 e 2F</h2>
                     </CardContent>
