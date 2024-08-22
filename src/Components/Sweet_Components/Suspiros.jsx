@@ -8,12 +8,12 @@ export default function Suspiros() {
             <ul>
                 <li>
                     <h2>Ingredientes</h2>
-                    <h3>&#45;&#62; para aproxmadamente 35 suspiros</h3>
+                    <h3>&#45;&#62; para aproximadamente 35 suspiros</h3>
                 </li>
                 <ul>
                     <li>2x claras de ovos M &#40;aproximadamente 67/68gr&#41;</li>
-                    <li>60gr de açúcar refinado &#40;ou acúcar em pó&#41;</li>
-                    <li>1 colher sobremesa de sumo de limão &#40;não notei a diferença não usando&#41;</li>
+                    <li>100gr de açúcar refinado &#40;ou acúcar em pó&#41;</li>
+                    <li>sumo de limão &#40;não notei a diferença não usando&#41;</li>
                     <li>Corantes em gel ou em pó &#40;opcional&#41;</li>
                     <li>Aromas &#40;opcional&#41;</li>
                 </ul>
@@ -25,7 +25,8 @@ export default function Suspiros() {
                     <h2>Preparação</h2>
                 </li>
                 <ol>
-                    <li>Começar a bater as claras a uma velocidade baixa até começar a fazer espuma. Adicionar metade do açùcar e continuar a bater na velocidade média.</li>
+                    <li>Começar a bater as claras a uma velocidade baixa até começar a fazer espuma. Adicionar um terço do açùcar e continuar a bater na velocidade média-baixa.</li>
+                    <li>Quando o açúcar já estiver completamente dissolvido, acrescsentar mais um terço e continuar a bater em velocidade média </li>
                     <li>Quando as claras já estiverem batidas, mas ainda "líquidas", adicionar o restante açucar assim como o sumo de limâo.</li>
                     <li>Continuar a bater as claras e quando já estiverem firmes adicionar o aroma, se se desejar algum, e continuar a bater até obter o ponto de bico de pássaro.
                         <br />
@@ -37,10 +38,10 @@ export default function Suspiros() {
                     <li>Colocar um tapete de silicone ou papel vegetal num tabuleiro e, com o saco de pasteleiro, fazer os suspiros do tamanho desejado
                         <br />Nota: deixar aproximadamente 1cm entre suspiros para que não fiquem colados uns aos outros.
                     </li>
-                    <li>Colocar no forno o&#40;s&#41; tabuleiro&#40;s&#41; a 120ºC &#40;com ventoinha&#41; por aproximadamente 50min. Deixar a porta do forno entre-aberto usando uma colher de pau, por exemplo
-                        <br />Nota: eu dexei 50 min, mas os ultimos 5 min foi com a porta do forno fechada.
+                    <li>Colocar no forno o&#40;s&#41; tabuleiro&#40;s&#41; a 120ºC &#40;com ventoinha&#41; por aproximadamente 90 min. Deixar a porta do forno entre-aberto usando uma colher de pau, por exemplo
+                        <br />Nota: eu dexei 90 min, mas os ultimos 10 min foi com a porta do forno fechada.
                     </li>
-                    <li>Desligar o forno após os 50min e deixar arrefecer os suspiros dentro do forno desligado.</li>
+                    <li>Desligar o forno após o tempo terminar e deixar arrefecer os suspiros dentro do forno desligado.</li>
                     <li>Quando já estiverem frios, colocar os suspiros dentro de uma caixa para que não absorvam humidade</li>
                 </ol>
             </ul>
@@ -61,18 +62,18 @@ export default function Suspiros() {
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/bicos2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\bicos2.png" alt="bicos de pasteleiro" />
-                        </Link>
-                        <h2>Bicos D66 e 2F</h2>
-                    </CardContent>
-                </Card>
-                <Card>
-                    <CardContent>
                         <Link href="./pictures/suspiros1.png" rel="noopener noreferrer">
                             <img className="listPictureComponents" src=".\pictures\suspiros1.png" alt="suspiros" />
                         </Link>
                         <h2>Suspiros 2C e 1A</h2>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/bicos2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\bicos2.png" alt="bicos de pasteleiro" />
+                        </Link>
+                        <h2>Bicos D66 e 2F</h2>
                     </CardContent>
                 </Card>
                 <Card>
@@ -83,8 +84,23 @@ export default function Suspiros() {
                         <h2>Suspiros D66 e 2F</h2>
                     </CardContent>
                 </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/bicos3.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\bicos3.png" alt="bicos de pasteleiro" />
+                        </Link>
+                        <h2>Bicos 17 e 18</h2>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/suspiros3.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\suspiros3.png" alt="suspiros" />
+                        </Link>
+                        <h2>Suspiros 17 e 18</h2>
+                    </CardContent>
+                </Card>
             </div>
-
         </div>
     )
 };
