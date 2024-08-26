@@ -95,6 +95,7 @@ code {
 
 }
 
+
 @media (max-width: 768px) {
     .homepagePicture {
         background-image: url(../../public/pictures/underConstructionMobile.png);
@@ -181,4 +182,8 @@ h6 {
 
 li {
     padding: 8px
+}
+
+.nota {
+    margin-top: 0;
 }

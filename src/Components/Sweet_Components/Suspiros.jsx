@@ -30,7 +30,8 @@ export default function Suspiros() {
                     <li>Quando as claras já estiverem batidas, mas ainda "líquidas", adicionar o restante açucar assim como o sumo de limâo.</li>
                     <li>Continuar a bater as claras e quando já estiverem firmes adicionar o aroma, se se desejar algum, e continuar a bater até obter o ponto de bico de pássaro.
                         <br />
-                        Nota: se se pretender usar 2 aromas ou mais, então bater até as claras ficarem em ponto de bico de pássaro, depois dividir as claras e usar o&#40;s&#41; aroma&#40;s&#41; no passo seguinte &#40;4&#41;.
+                        <p className="nota"><strong>Nota: </strong> se se pretender usar 2 aromas ou mais, então bater até as claras ficarem em ponto de bico de pássaro, depois dividir as claras e usar o&#40;s&#41; aroma&#40;s&#41; no passo seguinte &#40;4&#41;.
+                        </p>
                     </li>
                     <li> Quando estiverem no ponto, será neste momento que deveremos acrescentar o&#40;s&#41; corante&#40;s&#41; e mexer devagar usando um salazar ou uma colher de pau até ficar a cor desejada e uniforme</li>
                     <li>Colocar as claras num saco de pasteleiro com o bico desejado</li>
@@ -57,7 +58,7 @@ export default function Suspiros() {
                         <Link href="./pictures/bicos1.png" rel="noopener noreferrer">
                             <img className="listPictureComponents" src=".\pictures\bicos1.png" alt="bicos de pasteleiro" />
                         </Link>
-                        <h2>Bicos 2C e 1A</h2>
+                        <h2>Bicos D42 e 1A</h2>
                     </CardContent>
                 </Card>
                 <Card>
@@ -65,7 +66,7 @@ export default function Suspiros() {
                         <Link href="./pictures/suspiros1.png" rel="noopener noreferrer">
                             <img className="listPictureComponents" src=".\pictures\suspiros1.png" alt="suspiros" />
                         </Link>
-                        <h2>Suspiros 2C e 1A</h2>
+                        <h2>Suspiros D42 e 1A</h2>
                     </CardContent>
                 </Card>
                 <Card>
