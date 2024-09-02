@@ -12,9 +12,11 @@ import Measurements from './Components/Measurements';
 
 import MassinhaNuvem from './Components/Activities_Components/MassinhaNuvem';
 
-import Suspiros from './Components/Sweet_Components/Suspiros';
 import Cookies from './Components/Sweet_Components/Cookies';
 import Macarrons from './Components/Sweet_Components/Macarrons';
+import Palmiers from './Components/Sweet_Components/Palmiers';
+import Pipocas from './Components/Sweet_Components/Pipocas';
+import Suspiros from './Components/Sweet_Components/Suspiros';
 
 
 function App() {
@@ -53,6 +55,8 @@ function App() {
 
           <Route path="cookies" element={<Cookies />} />
           <Route path="macarrons" element={<Macarrons />} />
+          <Route path="palmiers" element={<Palmiers />} />
+          <Route path="pipocas" element={<Pipocas />} />
           <Route path="suspiros" element={<Suspiros />} />
         </Routes>
       </BrowserRouter>
