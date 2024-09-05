@@ -1,4 +1,6 @@
 import React from "react";
+import { Card, CardContent, Link } from "@mui/material";
+
 
 export default function Macarrons() {
     return (
@@ -54,6 +56,24 @@ export default function Macarrons() {
                     <h2>Galeria de imagens</h2>
                 </li>
             </ul>
+            <div className="display-grid-pic">
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/MacaronsChocolate1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\MacaronsChocolate1.png" alt="Macarons Chocolate" />
+                        </Link>
+                        <h2>Macarons Chocolate</h2>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/MacaronsChocolate2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\MacaronsChocolate2.png" alt="Macarons Chocolate" />
+                        </Link>
+                        <h2>Macarons Chocolate</h2>
+                    </CardContent>
+                </Card>
+            </div>
         </div>
     )
 };
