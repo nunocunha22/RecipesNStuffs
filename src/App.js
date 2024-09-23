@@ -12,6 +12,7 @@ import Measurements from './Components/Measurements';
 
 import MassinhaNuvem from './Components/Activities_Components/MassinhaNuvem';
 
+import BiscoitosAvelã from './Components/Sweet_Components/BiscoitosAvelã';
 import Cookies from './Components/Sweet_Components/Cookies';
 import Macarrons from './Components/Sweet_Components/Macarrons';
 import Palmiers from './Components/Sweet_Components/Palmiers';
@@ -53,6 +54,7 @@ function App() {
 
           <Route path="massinha_nuvem" element={<MassinhaNuvem />} />
 
+          <Route path="biscoitosAvelã" element={<BiscoitosAvelã />} />
           <Route path="cookies" element={<Cookies />} />
           <Route path="macarrons" element={<Macarrons />} />
           <Route path="palmiers" element={<Palmiers />} />

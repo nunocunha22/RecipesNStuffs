@@ -10,6 +10,15 @@ export default function Sweet() {
             <div className="display-grid">
                 <Card>
                     <CardContent>
+                        <Link className="listLink" href="biscoitosAvelã">
+                            <img className="listPicture" src=".\pictures\biscoitoAvela2.png" alt="cookies" />
+                            <h3>Biscoitos avelã</h3>
+                            <h3>recheados</h3>
+                        </Link>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
                         <Link className="listLink" href="cookies">
                             <img className="listPicture" src=".\pictures\cookiess.jpg" alt="cookies" />
                             <h2>Cookies</h2>
