@@ -41,7 +41,7 @@ function App() {
         <Link href="sweet">Doces</Link>
         <Link href="salty">Salgados</Link>
         <Link href="activities">Atividades</Link>
-        <Link href="measurements">Measurements</Link>
+        <Link href="measurements">Medidas</Link>
         {/* </nav> */}
       </header>
       <BrowserRouter>

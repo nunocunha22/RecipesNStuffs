@@ -89,9 +89,9 @@ export default function Pipocas() {
                         <div className="prepTime">&#x1F552; 10 a 15min</div>
                     </li>
                     <ol>
-                        <li>Colocar numa panela as pipocas e a matéria gorda. Ligar em fogo medio (no meu caso é o nivel 5 em 10).</li>
+                        <li>Colocar numa panela as pipocas e a matéria gorda. Ligar em fogo medio (no meu caso é o nivel 6 em 10).</li>
                         <li>Ir mexendo de vez em quando com uma colher de pau até as primeiras pipocas rebentarem (demora cerca de 6 a 7 min)</li>
-                        <li>Tapar a panela e baixar o fogo um nivel (no meu caso para 4 em 10).</li>
+                        <li>Tapar a panela e baixar o fogo um nivel (no meu caso para 5 em 10).</li>
                         <li>Ir abanando a panela de vez em quando até as pipocas já não estourarem mais.</li>
                         <li>Retirar a panela e deitar as pipocas num recipiente.</li>
                         Nota: Ter em conta que há milho que ainda pode estourar. Cuidado para não se assustarem e deixarem cair tudo ao chão! Sim, falo com conhecimento de causa... &#128514;
@@ -102,7 +102,7 @@ export default function Pipocas() {
                     </li>
                     <ol>
                         <li>Colocar numa panela as pipocas e a matéria gorda e o açúcar.</li>
-                        <li>Ligar em fogo medio-baixo (no meu caso é o nivel 4 em 10).</li>
+                        <li>Ligar em fogo medio-baixo (no meu caso é o nivel 5 em 10).</li>
                         <li>Inicialmente ir mexendo até o açúcar ficar derretido. Quando as primeiras pipocas rebentarem (demora cerca de 9 a 10 min)</li>
                         <li>Tapar a panela e baixar o fogo um nivel (no meu caso para 3 em 10).</li>
                         <li>Ir abanando energicamente a panela de vez em quando, para não queimar/colar, até as pipocas já não estourarem mais.</li>
@@ -115,7 +115,7 @@ export default function Pipocas() {
                     <ol>
                         <li>Colocar numa panela as pipocas e a matéria gorda + a quantidade de sal desejada. Ligar em fogo medio (no meu caso é o nivel 5 em 10).</li>
                         <li>Ir mexendo de vez em quando com uma colher de pau até as primeiras pipocas rebentarem (demora cerca de 6 a 7 min)</li>
-                        <li>Tapar a panela e baixar o fogo um nivel (no meu caso para 4 em 10).</li>
+                        <li>Tapar a panela e baixar o fogo um nivel (no meu caso para 5 em 10).</li>
                         <li>Ir abanando a panela de vez em quando até as pipocas já não estourarem mais.</li>
                         <li>Retirar a panela e deitar as pipocas num recipiente.</li>
                     </ol>
@@ -126,11 +126,11 @@ export default function Pipocas() {
                     <ol>
                         <li>Seguir os passos para fazer pipocas "simples" e reservar as pipocas para usar depois.</li>
                         <li>Colocar numa panela: a agua + o açúcar.</li>
-                        <li>Aquecer em lume baixo (no meu caso nivel 4).</li>
+                        <li>Aquecer em lume baixo (no meu caso nivel 5).</li>
                         <li>Ir mexendo até o açúcar ficar dissolvido.</li>
                         <li>Quando começar a fervilhar, continuar a mexer de minuto a minuto aproximadamente e é nesta fase que se colocam o corante e o aroma desejados. Mexer tudo muito bem para ficar uma cor uniforme.</li>
-                        <li>Quando começar a ficar um pouco espesso.</li>
-                        <li>Baixar o lume um ou dois niveis, mas NÃO desligar.</li>
+                        <li>Quando começar a ficar um pouco espesso. Baixar o lume um ou dois niveis, mas NÃO desligar.</li>
+                        Nota: para ter a certeza se a mistura já está no ponto, usar um pires (ou um prato de sobremesa) com um pouco de água. Verter uma gota da mistura colirida na água e se ela se mantiver e não se dissolver: está no ponto certo! (ver foto "Teste gota").
                         <li>Verter as pipocas na panela e misturar tudo muito bem até ficarem bem envolvidas na mistura.</li>
                         <li>Desligar o fogo e esperar um pouco até o açúcar cristalizar completamente.</li>
                         <li>Voltar a colocar as pipocas na tigela.</li>
@@ -154,10 +154,10 @@ export default function Pipocas() {
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/pipocasRosaEscuro.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\pipocasRosaEscuro.png" alt="Pipocas rosa escuro" />
+                        <Link href="./pictures/testeGota.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\testeGota.png" alt="Ponto teste gota" />
                         </Link>
-                        <h2>Pipocas rosa escuro</h2>
+                        <h2>Teste gota</h2>
                     </CardContent>
                 </Card>
             </div>
