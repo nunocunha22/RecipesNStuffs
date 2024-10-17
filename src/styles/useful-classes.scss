@@ -10,10 +10,22 @@
     margin-top: 32px;
 }
 
-//DISPLAY GRID DENTRO COMPONENTES (SWEET, SALTY, AVTIVITIES)
+@media (max-width: 768px) {
+    .margin-top-32 {
+        margin-top: 54px;
+    }
+}
+
+//DISPLAY GRID DENTRO COMPONENTES (SWEET, SALTY, ACTIVITIES)
 .display-grid {
     display: grid;
-    grid-template-columns: repeat(8, auto);
+    grid-template-columns: repeat(6, auto);
+}
+
+@media (max-width: 920px) {
+    .display-grid {
+        grid-template-columns: repeat(4, auto);
+    }
 }
 
 @media (max-width: 768px) {

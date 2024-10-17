@@ -1,7 +1,6 @@
-import React from 'react';
+import * as React from 'react';
 import './App.css';
 import './styles/theme.scss';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Link from '@mui/material/Link';
 import Homepage from './Components/Homepage';
@@ -18,31 +17,58 @@ import Macarrons from './Components/Sweet_Components/Macarrons';
 import Palmiers from './Components/Sweet_Components/Palmiers';
 import Pipocas from './Components/Sweet_Components/Pipocas';
 import Suspiros from './Components/Sweet_Components/Suspiros';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Button } from '@mui/material';
+import SwipeablePhoneDrawer from './Components/Custom_Components/SwipeablePhoneDrawer';
 
 
 function App() {
+  //Media Query
 
-  // const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const [isNotDesktop, setisNotDesktop] = React.useState(false);
+  const notDesktopMediaQuery = '(max-width: 820px)';
 
-  // const toggleMenu = () => {
-  //   setIsMenuOpen(!isMenuOpen);
-  // };
+  React.useEffect(() => {
+    const mediaQuery = window.matchMedia(notDesktopMediaQuery);
+    setisNotDesktop(mediaQuery.matches); // Set initial value
+
+    const handleResize = (e) => {
+      setisNotDesktop(e.matches); // Update value on resize
+    };
+
+    mediaQuery.addEventListener('change', handleResize);
+
+    return () => mediaQuery.removeEventListener('change', handleResize);
+  });
+
+  //TOGGLE DRAWER
+  const [openDrawer, setOpenDrawer] = React.useState(false);
+
+  const toggleDrawer = (newOpen) => () => {
+    setOpenDrawer(newOpen);
+  }
 
   return (
     <div className="App">
       <header className="App-header">
-
-        {/* <Link className="burger-icon" onClick={toggleMenu}>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-            <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" /></svg>
-        </Link> */}
-        {/* <nav className={`nav-links ${isMenuOpen ? 'open' : ''}`}> */}
-        <Link href="/">Homepage</Link>
-        <Link href="sweet">Doces</Link>
-        <Link href="salty">Salgados</Link>
-        <Link href="activities">Atividades</Link>
-        <Link href="measurements">Medidas</Link>
-        {/* </nav> */}
+        {isNotDesktop ? (
+          <div>
+            <Button className='btn-icon' onClick={toggleDrawer(true)}>
+              <FontAwesomeIcon className="burger-icon" icon={faBars} />
+              Menu
+            </Button>
+            <SwipeablePhoneDrawer open={openDrawer} onClose={toggleDrawer(false)} />
+          </div>
+        ) : (
+          <div className="App-header">
+            <Link href="/">Homepage</Link>
+            <Link href="sweet">Doces</Link>
+            <Link href="salty">Salgados</Link>
+            <Link href="activities">Atividades</Link>
+            <Link href="measurements">Medidas</Link>
+          </div>
+        )}
       </header>
       <BrowserRouter>
         <Routes>

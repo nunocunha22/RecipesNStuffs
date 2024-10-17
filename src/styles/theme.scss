@@ -2,6 +2,8 @@
 @import "./table";
 @import "./card";
 @import "./useful-classes.scss";
+@import "./swipeablePhoneDrawer";
+
 
 // APP STYLES
 
@@ -155,30 +157,13 @@ h6 {
     margin: 8px 0;
 }
 
+
+
 .burger-icon {
-    display: none;
+    width: 40px;
+
 }
 
-@media (max-width: 768px) {
-
-    .burger-icon {
-        display: flex;
-        width: 40px;
-        background-color: transparent;
-        fill: white;
-
-    }
-
-    .nav-links {
-        display: none;
-
-    }
-
-    .nav-links.open {
-        display: block;
-
-    }
-}
 
 li {
     padding: 8px
