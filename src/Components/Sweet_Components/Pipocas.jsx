@@ -93,20 +93,20 @@ export default function Pipocas() {
                         <li>Ir mexendo de vez em quando com uma colher de pau até as primeiras pipocas rebentarem (demora cerca de 6 a 7 min)</li>
                         <li>Tapar a panela e baixar o fogo um nivel (no meu caso para 5 em 10).</li>
                         <li>Ir abanando a panela de vez em quando até as pipocas já não estourarem mais.</li>
-                        <li>Retirar a panela e deitar as pipocas num recipiente.</li>
-                        Nota: Ter em conta que há milho que ainda pode estourar. Cuidado para não se assustarem e deixarem cair tudo ao chão! Sim, falo com conhecimento de causa... &#128514;
+                        <li>Retirar a panela do fogão e deitar as pipocas num recipiente.</li>
+                        <p className="nota"><strong>Nota: </strong> Ter em conta que há milho que ainda pode estourar. Cuidado para não se assustarem e deixarem cair tudo ao chão! Sim, falo com conhecimento de causa... &#128514;</p>
                     </ol>
                     <li>
                         <h3>Pipocas doces</h3>
                         <div className="prepTime">&#x1F552; 15 a 20min</div>
                     </li>
                     <ol>
-                        <li>Colocar numa panela as pipocas e a matéria gorda e o açúcar.</li>
+                        <li>Colocar numa panela as pipocas e a matéria gorda, a água e o açúcar.</li>
                         <li>Ligar em fogo medio-baixo (no meu caso é o nivel 5 em 10).</li>
-                        <li>Inicialmente ir mexendo até o açúcar ficar derretido. Quando as primeiras pipocas rebentarem (demora cerca de 9 a 10 min)</li>
+                        <li>Inicialmente ir mexendo até o açúcar ficar derretido. Quando as primeiras pipocas rebentarem (demora cerca de 11 a 12 min)</li>
                         <li>Tapar a panela e baixar o fogo um nivel (no meu caso para 3 em 10).</li>
                         <li>Ir abanando energicamente a panela de vez em quando, para não queimar/colar, até as pipocas já não estourarem mais.</li>
-                        <li>Retirar a panela e deitar as pipocas num recipiente.</li>
+                        <li>Retirar a panela do fogão e deitar as pipocas num recipiente.</li>
                     </ol>
                     <li>
                         <h3>Pipocas salgadas</h3>
@@ -117,7 +117,7 @@ export default function Pipocas() {
                         <li>Ir mexendo de vez em quando com uma colher de pau até as primeiras pipocas rebentarem (demora cerca de 6 a 7 min)</li>
                         <li>Tapar a panela e baixar o fogo um nivel (no meu caso para 5 em 10).</li>
                         <li>Ir abanando a panela de vez em quando até as pipocas já não estourarem mais.</li>
-                        <li>Retirar a panela e deitar as pipocas num recipiente.</li>
+                        <li>Retirar a panela do fogão e deitar as pipocas num recipiente.</li>
                     </ol>
                     <li>
                         <h3>Pipocas coloridas:</h3>
@@ -150,6 +150,14 @@ export default function Pipocas() {
                             <img className="listPictureComponents" src=".\pictures\piocasVerdes.png" alt="Pipocas verdes" />
                         </Link>
                         <h2>Pipocas verdes</h2>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/pipocasDoces.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\pipocasDoces.png" alt="Pipocas Doces" />
+                        </Link>
+                        <h2>Pipocas doces</h2>
                     </CardContent>
                 </Card>
                 <Card>

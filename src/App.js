@@ -40,7 +40,7 @@ function App() {
     mediaQuery.addEventListener('change', handleResize);
 
     return () => mediaQuery.removeEventListener('change', handleResize);
-  });
+  }, []);
 
   //TOGGLE DRAWER
   const [openDrawer, setOpenDrawer] = React.useState(false);
