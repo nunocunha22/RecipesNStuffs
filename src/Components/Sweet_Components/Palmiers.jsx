@@ -102,10 +102,18 @@ export default function Palmiers() {
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Palmiers8.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Palmiers8.png" alt="Palmiers" />
+                        <Link href="./pictures/palmiersAcucar.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\palmiersAcucar.png" alt="Palmiers" />
                         </Link>
-                        <h2>Palmiers</h2>
+                        <h2>Palmiers açúcar e canela</h2>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/palmiersChocolate.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\palmiersChocolate.png" alt="Palmiers" />
+                        </Link>
+                        <h2>Palmiers chocolate</h2>
                     </CardContent>
                 </Card>
             </div>

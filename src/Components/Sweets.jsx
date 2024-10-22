@@ -57,6 +57,14 @@ export default function Sweet() {
                         </Link>
                     </CardContent>
                 </Card>
+                <Card>
+                    <CardContent>
+                        <Link className="listLink" href="waffles">
+                            <img className="listPicture" src=".\pictures\waffles1.png" alt="waffles" />
+                            <h2>Waffles</h2>
+                        </Link>
+                    </CardContent>
+                </Card>
             </div>
         </div>
     )

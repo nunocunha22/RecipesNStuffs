@@ -93,12 +93,21 @@ export default function Suspiros() {
                         <h2>Bicos 17 e 18</h2>
                     </CardContent>
                 </Card>
+
                 <Card>
                     <CardContent>
                         <Link href="./pictures/suspiros3.png" rel="noopener noreferrer">
                             <img className="listPictureComponents" src=".\pictures\suspiros3.png" alt="suspiros" />
                         </Link>
                         <h2>Suspiros 17 e 18</h2>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/suspiros_multicolores.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\suspiros_multicolores.png" alt="bicos de pasteleiro" />
+                        </Link>
+                        <h2>Multicolores (2F)</h2>
                     </CardContent>
                 </Card>
             </div>

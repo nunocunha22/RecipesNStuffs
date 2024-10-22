@@ -21,6 +21,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Button } from '@mui/material';
 import SwipeablePhoneDrawer from './Components/Custom_Components/SwipeablePhoneDrawer';
+import CroqueMonsieur from './Components/Salty_Components/CroqueMonsieur';
+import Waffles from './Components/Sweet_Components/Waffles';
 
 
 function App() {
@@ -80,12 +82,15 @@ function App() {
 
           <Route path="massinha_nuvem" element={<MassinhaNuvem />} />
 
+          <Route path="croque_monsieur" element={<CroqueMonsieur />} />
+
           <Route path="biscoitosAvelã" element={<BiscoitosAvelã />} />
           <Route path="cookies" element={<Cookies />} />
           <Route path="macarrons" element={<Macarrons />} />
           <Route path="palmiers" element={<Palmiers />} />
           <Route path="pipocas" element={<Pipocas />} />
           <Route path="suspiros" element={<Suspiros />} />
+          <Route path="waffles" element={<Waffles />} />
         </Routes>
       </BrowserRouter>
     </div>
