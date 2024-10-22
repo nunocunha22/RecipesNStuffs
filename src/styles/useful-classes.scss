@@ -38,11 +38,17 @@
 
 .display-grid-pic {
     display: grid;
-    grid-template-columns: repeat(8, auto);
+    grid-template-columns: repeat(6, auto);
+}
+
+@media (max-width: 920px) {
+    .display-grid-pic {
+        grid-template-columns: repeat(4, auto);
+    }
 }
 
 @media (max-width: 768px) {
     .display-grid-pic {
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat(2, auto);
     }
 }
