@@ -10,15 +10,21 @@ function createData(name, conversion) {
     return { name, conversion };
 }
 
-const rows = [
+const rows_solid = [
     createData('Açúcar', 200),
     createData('Farinha de trigo', 120),
 ]
 
+const rows_liquid = [
+    createData('Água', 240),
+]
+
+
 export default function Measurements() {
     return (
-        <div className="display-grid measurementsPicture">
+        <div>
             <TableContainer className="margin-top-32">
+                <h1>Sólidos</h1>
                 <Table aria-label="simple table">
                     <TableHead>
                         <TableRow>
@@ -27,7 +33,7 @@ export default function Measurements() {
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        {rows.map((row) => (
+                        {rows_solid.map((row) => (
                             <TableRow
                                 key={row.name}
                                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
@@ -43,6 +49,60 @@ export default function Measurements() {
                         <TableRow>
                             <TableCell>Colher sopa</TableCell>
                             <TableCell align="right">Conversão&nbsp;(g)</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>Colher sobremesa</TableCell>
+                            <TableCell align="right">Conversão&nbsp;(g)</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>Colher chá</TableCell>
+                            <TableCell align="right">Conversão&nbsp;(g)</TableCell>
+                        </TableRow>
+                    </TableHead>
+                </Table>
+            </TableContainer>
+            <TableContainer className="margin-top-32">
+                <h1>Liquidos</h1>
+                <Table aria-label="simple table">
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>Xícara</TableCell>
+                            <TableCell align="right">Conversão&nbsp;(ml)</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableBody>
+                        {rows_liquid.map((row) => (
+                            <TableRow
+                                key={row.name}
+                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                            >
+                                <TableCell component="th" scope="row">
+                                    {row.name}
+                                </TableCell>
+                                <TableCell align="right">{row.conversion}</TableCell>
+                            </TableRow>
+                        ))}
+                    </TableBody>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>Colher sopa</TableCell>
+                            <TableCell align="right">Conversão&nbsp;(ml)</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>Colher sobremesa</TableCell>
+                            <TableCell align="right">Conversão&nbsp;(ml)</TableCell>
+                        </TableRow>
+                    </TableHead>
+                    <TableHead>
+                        <TableRow>
+                            <TableCell>Colher chá</TableCell>
+                            <TableCell align="right">Conversão&nbsp;(ml)</TableCell>
                         </TableRow>
                     </TableHead>
                 </Table>

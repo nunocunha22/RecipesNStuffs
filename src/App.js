@@ -23,6 +23,7 @@ import { Button } from '@mui/material';
 import SwipeablePhoneDrawer from './Components/Custom_Components/SwipeablePhoneDrawer';
 import CroqueMonsieur from './Components/Salty_Components/CroqueMonsieur';
 import Waffles from './Components/Sweet_Components/Waffles';
+import Cupcakes from './Components/Sweet_Components/Cupcakes';
 
 
 function App() {
@@ -80,12 +81,19 @@ function App() {
           <Route path="activities" element={<Activities />} />
           <Route path="measurements" element={<Measurements />} />
 
+          {/* ACTIVITIES */}
+
           <Route path="massinha_nuvem" element={<MassinhaNuvem />} />
+
+          {/* SALTY */}
 
           <Route path="croque_monsieur" element={<CroqueMonsieur />} />
 
+          {/* SWEET */}
+
           <Route path="biscoitosAvelã" element={<BiscoitosAvelã />} />
           <Route path="cookies" element={<Cookies />} />
+          <Route path="cupcakes" element={<Cupcakes />} />
           <Route path="macarrons" element={<Macarrons />} />
           <Route path="palmiers" element={<Palmiers />} />
           <Route path="pipocas" element={<Pipocas />} />
