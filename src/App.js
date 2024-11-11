@@ -6,6 +6,7 @@ import Link from '@mui/material/Link';
 import Homepage from './Components/Homepage';
 import Salty from './Components/Salty';
 import Sweet from './Components/Sweets';
+import Fillings from './Components/Fillings';
 import Activities from './Components/Activities';
 import Measurements from './Components/Measurements';
 
@@ -24,6 +25,7 @@ import SwipeablePhoneDrawer from './Components/Custom_Components/SwipeablePhoneD
 import CroqueMonsieur from './Components/Salty_Components/CroqueMonsieur';
 import Waffles from './Components/Sweet_Components/Waffles';
 import Cupcakes from './Components/Sweet_Components/Cupcakes';
+import RecheioLimao from './Components/Fillings_Components/Recheio_limão';
 
 
 function App() {
@@ -67,6 +69,7 @@ function App() {
           <div className="App-header">
             <Link href="/">Homepage</Link>
             <Link href="sweet">Doces</Link>
+            <Link href="fillings">Recheios</Link>
             <Link href="salty">Salgados</Link>
             <Link href="activities">Atividades</Link>
             <Link href="measurements">Medidas</Link>
@@ -76,8 +79,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="salty" element={<Salty />} />
           <Route path="sweet" element={<Sweet />} />
+          <Route path="fillings" element={<Fillings />} />
+          <Route path="salty" element={<Salty />} />
           <Route path="activities" element={<Activities />} />
           <Route path="measurements" element={<Measurements />} />
 
@@ -99,6 +103,11 @@ function App() {
           <Route path="pipocas" element={<Pipocas />} />
           <Route path="suspiros" element={<Suspiros />} />
           <Route path="waffles" element={<Waffles />} />
+
+          {/* FILLINGS */}
+
+          <Route path="recheio_limao" element={<RecheioLimao />} />
+
         </Routes>
       </BrowserRouter>
     </div>

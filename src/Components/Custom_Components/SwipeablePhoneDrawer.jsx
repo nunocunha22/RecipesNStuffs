@@ -20,6 +20,7 @@ export default function SwipeablePhoneDrawer({ open, onClose }) {
                     <List className='drawerList'>
                         <Link href="/">Homepage</Link>
                         <Link href="sweet">Doces</Link>
+                        <Link href="fillings">Recheios</Link>
                         <Link href="salty">Salgados</Link>
                         <Link href="activities">Atividades</Link>
                         <Link href="measurements">Medidas</Link>
