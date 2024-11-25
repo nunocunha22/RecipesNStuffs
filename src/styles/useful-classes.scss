@@ -19,18 +19,18 @@
 //DISPLAY GRID DENTRO COMPONENTES (SWEET, SALTY, ACTIVITIES)
 .display-grid {
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(6, 1fr);
 }
 
 @media (max-width: 920px) {
     .display-grid {
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
 @media (max-width: 768px) {
     .display-grid {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -38,17 +38,17 @@
 
 .display-grid-pic {
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(6, 1fr);
 }
 
 @media (max-width: 920px) {
     .display-grid-pic {
-        grid-template-columns: repeat(4, auto);
+        grid-template-columns: repeat(4, 1fr);
     }
 }
 
 @media (max-width: 768px) {
     .display-grid-pic {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(2, 1fr);
     }
 }

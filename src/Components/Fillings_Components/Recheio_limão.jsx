@@ -30,10 +30,10 @@ export default function RecheioLimao() {
                     <li>Quando começar a levantar fervura, contar cerca de 2 minutos e retirar do lume. Não esquecer de ir mexendo de vez em quando para não agarrar à panela e queimar</li>
                     <li>Fora do lume, adicionar a manteiga (e o corante, se pretender usar) e misturar até se dissolver completamente</li>
                     <li>Colocar a mistura num recipiente e cobrir com papel aderente em contacto com o recheio.</li>
-                    <li>Deixar repousar no frigorifico por 6h, no minimo</li>
+                    <li>Deixar repousar no frigorifico por 6h, no mínimo</li>
                     <li>Depois desse tempo, se não se tiver usado agar-agar ou gelatina, está pronto a ser usado como recheio de bolo</li>
                     <li>Se tiver sido usado agar-agar ou gelatina, a mistura deverá estar bem rija! Ótimo, é mesmo isso que se quer.</li>
-                    <li>Para ser usado como recheio de macarrons, por exemplo, teremos de colocar a mistura no micro-ondas por fases de 10 a 15s de cada vez até ficar totalmente líquida. Mexer entre fases!</li>
+                    <li>Para ser usado como recheio de macarrons, por exemplo, teremos de colocar a mistura no micro-ondas por fases de 15s de cada vez até ficar totalmente líquida (aproximadamente 4 vezes). Mexer entre fases!</li>
                     <p className="nota"><strong>Nota: </strong> geralmente só levo ao micro-ondas metade ou 1/4 do recheio de cada vez. Tendo em conta que volta a endurecer bastante rápido.</p>
                     <li>Pode ser usado um saco de confeitar ou uma colher ou outra coisa que dê jeito para rechear</li>
                 </ol>
@@ -43,6 +43,16 @@ export default function RecheioLimao() {
                     <h2>Galeria de imagens</h2>
                 </li>
             </ul>
+            <div className="display-grid-pic">
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/recheioLimao2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\recheioLimao2.png" alt="Recheio limão" />
+                        </Link>
+                        <h2>Recheio limão</h2>
+                    </CardContent>
+                </Card>
+            </div>
         </div>
     )
 };
