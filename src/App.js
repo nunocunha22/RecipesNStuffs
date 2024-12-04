@@ -26,6 +26,8 @@ import CroqueMonsieur from './Components/Salty_Components/CroqueMonsieur';
 import Waffles from './Components/Sweet_Components/Waffles';
 import Cupcakes from './Components/Sweet_Components/Cupcakes';
 import RecheioLimao from './Components/Fillings_Components/Recheio_limão';
+import Crepes from './Components/Sweet_Components/Crepes';
+import Donuts from './Components/Sweet_Components/Donuts';
 
 
 function App() {
@@ -76,6 +78,7 @@ function App() {
           </div>
         )}
       </header>
+
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -97,7 +100,9 @@ function App() {
 
           <Route path="biscoitosAvelã" element={<BiscoitosAvelã />} />
           <Route path="cookies" element={<Cookies />} />
+          <Route path="crepes" element={<Crepes />} />
           <Route path="cupcakes" element={<Cupcakes />} />
+          <Route path="donuts" element={<Donuts />} />
           <Route path="macarrons" element={<Macarrons />} />
           <Route path="palmiers" element={<Palmiers />} />
           <Route path="pipocas" element={<Pipocas />} />

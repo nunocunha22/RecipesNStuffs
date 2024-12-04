@@ -8,7 +8,7 @@ export default function Cookies() {
             <ul>
                 <li>
                     <h2>Ingredientes</h2>
-                    <h3>&#45;&#62; para aproximadamente 60 ccookies</h3>
+                    <h3>&#45;&#62; para aproximadamente 60 cookies</h3>
                 </li>
                 <ul>
                     <li>125g de manteiga sem sal (temperatura ambiente)</li>
