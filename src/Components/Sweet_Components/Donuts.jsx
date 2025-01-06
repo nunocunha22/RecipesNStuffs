@@ -15,7 +15,7 @@ export default function Donuts() {
                     <li><h4><u>Para a massa:</u></h4>
                         <li>250ml de leite</li>
                         <li>450g de farinha</li>
-                        <li>12g de fermento padeiro (ou fermento específico para massas doces) </li>
+                        <li>12g de fermento padeiro seco (ou fermento específico para massas doces) </li>
                         <li>70 a 80g de açúcar</li>
                         <li>50g manteiga derretida</li>
                         <li>1 ovo</li>
@@ -73,6 +73,14 @@ export default function Donuts() {
                     <CardContent>
                         <Link href="./pictures/Donuts2.png" rel="noopener noreferrer">
                             <img className="listPictureComponents" src=".\pictures\Donuts2.png" alt="Donuts" />
+                        </Link>
+                        <h2>Donuts prontos</h2>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="./pictures/Donuts3.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src=".\pictures\Donuts3.png" alt="Donuts" />
                         </Link>
                         <h2>Donuts prontos</h2>
                     </CardContent>

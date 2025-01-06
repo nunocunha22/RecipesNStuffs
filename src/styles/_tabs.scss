@@ -1,0 +1,36 @@
+.MuiButtonBase-root.MuiTab-root {
+    background-color: lightgray;
+    flex: 1;
+    text-align: center;
+    min-width: 0;
+
+    &:first-of-type {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    &:last-of-type {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    &.Mui-selected {
+        color: rgb(135, 135, 255);
+        box-shadow: -5px -5px 15px lightgray, 5px 5px 15px #222, inset 5px 5px 10px lightgray, inset -5px -5px 10px #222;
+    }
+}
+
+.MuiTabs-indicator {
+    background-color: transparent !important;
+}
+
+@media (max-width: 920px) {
+    .MuiButtonBase-root.MuiTab-root {}
+}
+
+@media (max-width: 768px) {
+    .MuiButtonBase-root.MuiTab-root {
+        text-transform: none;
+        font-size: 1em;
+    }
+}

@@ -28,6 +28,9 @@ import Cupcakes from './Components/Sweet_Components/Cupcakes';
 import RecheioLimao from './Components/Fillings_Components/Recheio_limão';
 import Crepes from './Components/Sweet_Components/Crepes';
 import Donuts from './Components/Sweet_Components/Donuts';
+import Brioche from './Components/Sweet_Components/Brioche';
+import ButterCookies from './Components/Sweet_Components/ButterCookies';
+import CarameloMorango from './Components/Fillings_Components/Caramelo_morango';
 
 
 function App() {
@@ -99,6 +102,8 @@ function App() {
           {/* SWEET */}
 
           <Route path="biscoitosAvelã" element={<BiscoitosAvelã />} />
+          <Route path="brioche" element={<Brioche />} />
+          <Route path="butterCookies" element={<ButterCookies />} />
           <Route path="cookies" element={<Cookies />} />
           <Route path="crepes" element={<Crepes />} />
           <Route path="cupcakes" element={<Cupcakes />} />
@@ -112,6 +117,7 @@ function App() {
           {/* FILLINGS */}
 
           <Route path="recheio_limao" element={<RecheioLimao />} />
+          <Route path="caramelo_morango" element={<CarameloMorango />} />
 
         </Routes>
       </BrowserRouter>

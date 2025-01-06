@@ -13,7 +13,7 @@ export default function BiscoitosAvelã() {
                 <li>140g de farinha</li>
                 <li>100g de manteiga sem sal (a temperatura ambiente)</li>
                 <li>100g de açúcar</li>
-                <li>uma pita de sal</li>
+                <li>uma pitada de sal</li>
                 <li>200g/250g de Nutella ou outro creme que se prefira para o recheio</li>
                 <li>5g de agar-agar ou 3 folhas de gelatina (opcional: é apenas para poder "endurecer" o Nutella ou o recheio)</li>
             </ul>
