@@ -72,9 +72,8 @@ code {
 .homepagePicture {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-image: url(../../public/pictures/underConstruction.png);
+    background-image: url(../../public/pictures/HomePageDesktop.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100dvh;
@@ -82,42 +81,84 @@ code {
 }
 
 .homepageText1 {
-    background-color: black;
-    font-size: 42px;
-    color: white;
+    background-color: rgba($color: #ffffff, $alpha: 0.4);
+    line-height: 50px;
+    padding: 24px 100px;
+    font-size: 16px;
+    color: black;
     font-weight: 500;
 }
 
 .homepageText2 {
-    background-color: black;
-    font-size: 42px;
-    color: white;
+    background-color: rgba($color: #ffffff, $alpha: 0.4);
+    font-size: 16px;
+    padding: 24px 100px;
+    color: black;
     font-weight: 500;
     position: absolute;
     bottom: 10px;
     right: 10px;
+}
+
+@media (min-width: 821px) and (max-width: 1024px) {
+
+    .homepageText1 {
+        font-size: 14px !important;
+        padding: 8px;
+        line-height: 30px;
+    }
+
+    .homepageText2 {
+        font-size: 14px !important;
+        bottom: 20px;
+        right: 0px;
+        padding: 8px 8px 8px 100px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 820px) {
+    .homepageIntro {
+        margin-top: 32px;
+    }
+
+    .homepageText1 {
+        font-size: 14px !important;
+        padding: 8px;
+        line-height: 24px;
+    }
+
+    .homepageText2 {
+        font-size: 14px !important;
+        bottom: 20px;
+        right: 0px;
+        padding: 8px 8px 8px 100px;
+    }
 
 }
 
 
 @media (max-width: 768px) {
     .homepagePicture {
-        background-image: url(../../public/pictures/underConstructionMobile.png);
-        background-size: contain;
-
+        background-image: url(../../public/pictures/HomePageMobile.png);
+        background-size: cover;
     }
 
-    .homepageText1 {
-        font-size: 22px !important;
+    .homepageIntro {
         text-align: center;
     }
 
+    .homepageText1 {
+        font-size: 14px !important;
+        padding: 8px;
+        line-height: 24px;
+    }
+
     .homepageText2 {
-        font-size: 22px !important;
-        position: absolute;
+        font-size: 14px !important;
         bottom: 20px;
         right: 0px;
-
+        padding: 8px 8px 8px 100px;
     }
 }
 
