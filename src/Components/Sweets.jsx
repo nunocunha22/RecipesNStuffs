@@ -140,7 +140,7 @@ export default function Sweet() {
                 <Card>
                     <CardContent>
                         <Link className="listLink" href="doces/yalanci">
-                            <img className="listPicture" src=".\pictures\yalancii.png" alt="yalanci" />
+                            <img className="listPicture" src=".\pictures\Yalancii.png" alt="yalanci" />
                             <h2>Yalancı Tavuk Göğsü</h2>
                         </Link>
                     </CardContent>
