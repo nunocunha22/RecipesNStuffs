@@ -34,7 +34,7 @@ export default function Palmiers() {
                     Nota: depois deste passo completado, costumo cobrir a massa e pô-la no congelador 30min. Ela fica mais rija e é mais fácil cortar os pedaços sem que fique colada à faca.
                     <li>Pré-aquecer o forno a 200ºC</li>
                     <li>Cortar fatias de aproximadamente 1cm de largura e dispôr num tabuleiro com papel vegetal. Dispôr todas as fatias no mesmo sentido e deixando algum espaço entre elas para poderem abrir </li>
-                    <li>Meter no forno a 200ºC (com ventoinha) durante aproximadamente uns 20min</li>
+                    <li>Meter no forno a 200ºC (com ventoinha) durante aproximadamente uns 15 a 17min</li>
                     <li>Retirar do forno e esperar uns bons minutos antes de comer.....que é para não queimar a língua e os dedos</li>
                 </ol>
             </ul>
@@ -46,72 +46,72 @@ export default function Palmiers() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Palmiers1.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Palmiers1.png" alt="Palmiers" />
+                        <Link href="/pictures/Palmiers1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\Palmiers1.png" alt="Palmiers" />
                         </Link>
                         <h2>Passo 1</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Palmiers2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Palmiers2.png" alt="Palmiers" />
+                        <Link href="/pictures/Palmiers2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\Palmiers2.png" alt="Palmiers" />
                         </Link>
                         <h2>Passo 2</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Palmiers3.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Palmiers3.png" alt="Palmiers" />
+                        <Link href="/pictures/Palmiers3.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\Palmiers3.png" alt="Palmiers" />
                         </Link>
                         <h2>Passo 3</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Palmiers4.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Palmiers4.png" alt="Palmiers" />
+                        <Link href="/pictures/Palmiers4.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\Palmiers4.png" alt="Palmiers" />
                         </Link>
                         <h2>Passo 4</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Palmiers5.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Palmiers5.png" alt="Palmiers" />
+                        <Link href="/pictures/Palmiers5.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\Palmiers5.png" alt="Palmiers" />
                         </Link>
                         <h2>Passo 5</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Palmiers6.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Palmiers6.png" alt="Palmiers" />
+                        <Link href="/pictures/Palmiers6.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\Palmiers6.png" alt="Palmiers" />
                         </Link>
                         <h2>Passo 6</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Palmiers7.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Palmiers7.png" alt="Palmiers" />
+                        <Link href="/pictures/Palmiers7.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\Palmiers7.png" alt="Palmiers" />
                         </Link>
                         <h2>Passo 7</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/palmiersAcucar.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\palmiersAcucar.png" alt="Palmiers" />
+                        <Link href="/pictures/palmiersAcucar.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\palmiersAcucar.png" alt="Palmiers" />
                         </Link>
                         <h2>Palmiers açúcar e canela</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/palmiersChocolate.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\palmiersChocolate.png" alt="Palmiers" />
+                        <Link href="/pictures/palmiersChocolate.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\palmiersChocolate.png" alt="Palmiers" />
                         </Link>
                         <h2>Palmiers chocolate</h2>
                     </CardContent>

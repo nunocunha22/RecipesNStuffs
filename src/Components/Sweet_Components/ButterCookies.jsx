@@ -41,8 +41,8 @@ export default function ButterCookies() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/butterCookies1.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\butterCookies1.png" alt="Butter cookies" />
+                        <Link href="/pictures/butterCookies1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\butterCookies1.png" alt="Butter cookies" />
                         </Link>
                         <h2>Butter cookies</h2>
                     </CardContent>

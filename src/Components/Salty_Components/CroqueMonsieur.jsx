@@ -46,8 +46,8 @@ export default function CroqueMonsieur() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/croqueMonsieur2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\croqueMonsieur2.png" alt="Palmiers" />
+                        <Link href="../pictures/croqueMonsieur2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="..\pictures\croqueMonsieur2.png" alt="Palmiers" />
                         </Link>
                         <h2>Croque Monsieur</h2>
                     </CardContent>

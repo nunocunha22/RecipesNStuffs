@@ -202,32 +202,32 @@ export default function Pipocas() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/piocasVerdes.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\piocasVerdes.png" alt="Pipocas verdes" />
+                        <Link href="/pictures/piocasVerdes.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\piocasVerdes.png" alt="Pipocas verdes" />
                         </Link>
                         <h2>Pipocas verdes</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/pipocasDoces.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\pipocasDoces.png" alt="Pipocas Doces" />
+                        <Link href="/pictures/pipocasDoces.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\pipocasDoces.png" alt="Pipocas Doces" />
                         </Link>
                         <h2>Pipocas doces</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/pipocas_coloridas.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\pipocas_coloridas.png" alt="pipocas coloridas" />
+                        <Link href="/pictures/pipocas_coloridas.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\pipocas_coloridas.png" alt="pipocas coloridas" />
                         </Link>
                         <h2>Pipocas coloridas</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/testeGota.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\testeGota.png" alt="Ponto teste gota" />
+                        <Link href="/pictures/testeGota.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\testeGota.png" alt="Ponto teste gota" />
                         </Link>
                         <h2>Teste gota</h2>
                     </CardContent>

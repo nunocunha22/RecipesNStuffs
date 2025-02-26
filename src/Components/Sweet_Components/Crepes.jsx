@@ -45,16 +45,16 @@ export default function Crepes() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Crepes1.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Crepes1.png" alt="Crepes" />
+                        <Link href="/pictures/Crepes1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\Crepes1.png" alt="Crepes" />
                         </Link>
                         <h2>Crepes</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Crepes2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Crepes2.png" alt="Crepes" />
+                        <Link href="/pictures/Crepes2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\Crepes2.png" alt="Crepes" />
                         </Link>
                         <h2>Crepes</h2>
                     </CardContent>

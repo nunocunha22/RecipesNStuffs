@@ -55,40 +55,40 @@ export default function Suspiros() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/bicos1.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\bicos1.png" alt="bicos de pasteleiro" />
+                        <Link href="/pictures/bicos1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\bicos1.png" alt="bicos de pasteleiro" />
                         </Link>
                         <h2>Bicos D42 e 1A</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/suspiros1.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\suspiros1.png" alt="suspiros" />
+                        <Link href="/pictures/suspiros1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\suspiros1.png" alt="suspiros" />
                         </Link>
                         <h2>Suspiros D42 e 1A</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/bicos2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\bicos2.png" alt="bicos de pasteleiro" />
+                        <Link href="/pictures/bicos2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\bicos2.png" alt="bicos de pasteleiro" />
                         </Link>
                         <h2>Bicos D66 e 2F</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/suspiros2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\suspiros2.png" alt="suspiros" />
+                        <Link href="/pictures/suspiros2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\suspiros2.png" alt="suspiros" />
                         </Link>
                         <h2>Suspiros D66 e 2F</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/bicos3.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\bicos3.png" alt="bicos de pasteleiro" />
+                        <Link href="/pictures/bicos3.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\bicos3.png" alt="bicos de pasteleiro" />
                         </Link>
                         <h2>Bicos 17 e 18</h2>
                     </CardContent>
@@ -96,16 +96,16 @@ export default function Suspiros() {
 
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/suspiros3.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\suspiros3.png" alt="suspiros" />
+                        <Link href="/pictures/suspiros3.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\suspiros3.png" alt="suspiros" />
                         </Link>
                         <h2>Suspiros 17 e 18</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/suspiros_multicolores.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\suspiros_multicolores.png" alt="bicos de pasteleiro" />
+                        <Link href="/pictures/suspiros_multicolores.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\suspiros_multicolores.png" alt="bicos de pasteleiro" />
                         </Link>
                         <h2>Multicolores (2F)</h2>
                     </CardContent>

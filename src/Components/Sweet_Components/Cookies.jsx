@@ -50,16 +50,16 @@ export default function Cookies() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/cookies2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\cookies2.png" alt="Tabuleiro de cookies" />
+                        <Link href="/pictures/cookies2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\cookies2.png" alt="Tabuleiro de cookies" />
                         </Link>
                         <h2>Disposição</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/cookies1.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\cookies1.png" alt="Cookies" />
+                        <Link href="/pictures/cookies1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\cookies1.png" alt="Cookies" />
                         </Link>
                         <h2>Cookies</h2>
                     </CardContent>

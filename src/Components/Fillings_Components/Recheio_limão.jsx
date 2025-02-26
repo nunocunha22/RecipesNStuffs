@@ -46,8 +46,8 @@ export default function RecheioLimao() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/recheioLimao2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\recheioLimao2.png" alt="Recheio limão" />
+                        <Link href="../pictures/recheioLimao2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="..\pictures\recheioLimao2.png" alt="Recheio limão" />
                         </Link>
                         <h2>Recheio limão</h2>
                     </CardContent>

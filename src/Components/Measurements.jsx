@@ -10,13 +10,20 @@ function createData(name, conversion) {
     return { name, conversion };
 }
 
-const rows_solid = [
+const rows_solid_xicara = [
     createData('Açúcar', 200),
     createData('Farinha de trigo', 120),
 ]
+const rows_solid_sopa = [
+    createData('Açúcar', 20),
+    createData('Farinha de trigo', 10),
+]
 
-const rows_liquid = [
+const rows_liquid_xicara = [
     createData('Água', 240),
+]
+const rows_liquid_sopa = [
+    createData('Água', 15),
 ]
 
 
@@ -33,7 +40,7 @@ export default function Measurements() {
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        {rows_solid.map((row) => (
+                        {rows_solid_xicara.map((row) => (
                             <TableRow
                                 key={row.name}
                                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
@@ -51,6 +58,19 @@ export default function Measurements() {
                             <TableCell align="right">Conversão&nbsp;(g)</TableCell>
                         </TableRow>
                     </TableHead>
+                    <TableBody>
+                        {rows_solid_sopa.map((row) => (
+                            <TableRow
+                                key={row.name}
+                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                            >
+                                <TableCell component="th" scope="row">
+                                    {row.name}
+                                </TableCell>
+                                <TableCell align="right">{row.conversion}</TableCell>
+                            </TableRow>
+                        ))}
+                    </TableBody>
                     <TableHead>
                         <TableRow>
                             <TableCell>Colher sobremesa</TableCell>
@@ -75,7 +95,7 @@ export default function Measurements() {
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        {rows_liquid.map((row) => (
+                        {rows_liquid_xicara.map((row) => (
                             <TableRow
                                 key={row.name}
                                 sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
@@ -93,6 +113,19 @@ export default function Measurements() {
                             <TableCell align="right">Conversão&nbsp;(ml)</TableCell>
                         </TableRow>
                     </TableHead>
+                    <TableBody>
+                        {rows_liquid_sopa.map((row) => (
+                            <TableRow
+                                key={row.name}
+                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                            >
+                                <TableCell component="th" scope="row">
+                                    {row.name}
+                                </TableCell>
+                                <TableCell align="right">{row.conversion}</TableCell>
+                            </TableRow>
+                        ))}
+                    </TableBody>
                     <TableHead>
                         <TableRow>
                             <TableCell>Colher sobremesa</TableCell>

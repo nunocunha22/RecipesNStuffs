@@ -57,24 +57,24 @@ export default function BiscoitosAvelã() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/biscoitoAvela2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\biscoitoAvela2.png" alt="Biscoitos avelã" />
+                        <Link href="/pictures/biscoitoAvela2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\biscoitoAvela2.png" alt="Biscoitos avelã" />
                         </Link>
                         <h2>Biscoitos de avelã</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/biscoitoAvela3.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\biscoitoAvela3.png" alt="Biscoitos avelã" />
+                        <Link href="/pictures/biscoitoAvela3.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\biscoitoAvela3.png" alt="Biscoitos avelã" />
                         </Link>
                         <h2>Biscoitos de avelã</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./videos/biscoitoAvela4.gif" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\videos\biscoitoAvela4.gif" alt="Biscoitos avelã" />
+                        <Link href="/videos/biscoitoAvela4.gif" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\videos\biscoitoAvela4.gif" alt="Biscoitos avelã" />
                         </Link>
                         <h2>Como moldar</h2>
                     </CardContent>

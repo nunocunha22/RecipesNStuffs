@@ -63,24 +63,24 @@ export default function Donuts() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Donuts1.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Donuts1.png" alt="Donuts" />
+                        <Link href="/pictures/Donuts1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\Donuts1.png" alt="Donuts" />
                         </Link>
                         <h2>Donuts antes do forno</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Donuts2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Donuts2.png" alt="Donuts" />
+                        <Link href="/pictures/Donuts2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\Donuts2.png" alt="Donuts" />
                         </Link>
                         <h2>Donuts prontos</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/Donuts3.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\Donuts3.png" alt="Donuts" />
+                        <Link href="/pictures/Donuts3.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\Donuts3.png" alt="Donuts" />
                         </Link>
                         <h2>Donuts prontos</h2>
                     </CardContent>

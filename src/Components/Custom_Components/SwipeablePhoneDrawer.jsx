@@ -19,11 +19,11 @@ export default function SwipeablePhoneDrawer({ open, onClose }) {
                 <div className='swipeableDrawer'>
                     <List className='drawerList'>
                         <Link href="/">Homepage</Link>
-                        <Link href="sweet">Doces</Link>
-                        <Link href="fillings">Recheios</Link>
-                        <Link href="salty">Salgados</Link>
-                        <Link href="activities">Atividades</Link>
-                        <Link href="measurements">Medidas</Link>
+                        <Link href="doces">Doces</Link>
+                        <Link href="recheios">Recheios</Link>
+                        <Link href="salgados">Salgados</Link>
+                        <Link href="atividades">Atividades</Link>
+                        <Link href="medidas">Medidas</Link>
                     </List>
                     <Button className="drawerClose" onClick={onClose}><FontAwesomeIcon icon={faXmark} /></Button>
                 </div>

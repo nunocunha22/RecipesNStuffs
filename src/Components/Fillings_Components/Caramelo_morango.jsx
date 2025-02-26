@@ -43,16 +43,16 @@ export default function CarameloMorango() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/carameloMorango1.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\carameloMorango1.png" alt=" Caramelo Morango " />
+                        <Link href="../pictures/carameloMorango1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="..\pictures\carameloMorango1.png" alt=" Caramelo Morango " />
                         </Link>
                         <h2>Caramelo Morango</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/carameloMorango2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\carameloMorango2.png" alt="Caramelo Morango batido" />
+                        <Link href="../pictures/carameloMorango2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="..\pictures\carameloMorango2.png" alt="Caramelo Morango batido" />
                         </Link>
                         <h2>Caramelo Morango batido</h2>
                     </CardContent>

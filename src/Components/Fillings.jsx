@@ -7,7 +7,7 @@ export default function Fillings() {
             <div className="display-grid">
                 <Card>
                     <CardContent>
-                        <Link className="listLink" href="caramelo_morango">
+                        <Link className="listLink" href="recheios/caramelo_morango">
                             <img className="listPicture" src=".\pictures\CarameloMorangoo.png" alt="caramelo morango" />
                             <h2>Caramelo morango </h2>
                         </Link>
@@ -15,7 +15,7 @@ export default function Fillings() {
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link className="listLink" href="recheio_limao">
+                        <Link className="listLink" href="recheios/recheio_limao">
                             <img className="listPicture" src=".\pictures\recheioLimão.png" alt="recheio limão" />
                             <h2>Recheio limão </h2>
                         </Link>

@@ -9,7 +9,7 @@ export default function Macarrons() {
             <ul>
                 <li>
                     <h2>Ingredientes</h2>
-                    <h3>&#45;&#62; para aproximadamente 15 macarrons (30 metades)</h3>
+                    <h3>&#45;&#62; para aproximadamente 26 a 30 macarrons (52 a 60 metades)</h3>
                 </li>
                 <ul>
                     <li>2 claras M</li>
@@ -62,32 +62,48 @@ export default function Macarrons() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/MacaronsChocolate1.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\MacaronsChocolate1.png" alt="Macarons Chocolate" />
+                        <Link href="/pictures/MacaronsChocolate1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\MacaronsChocolate1.png" alt="Macarons Chocolate" />
                         </Link>
                         <h2>Macarons Chocolate</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/MacaronsChocolate2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\MacaronsChocolate2.png" alt="Macarons Chocolate" />
+                        <Link href="/pictures/MacaronsChocolate2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\MacaronsChocolate2.png" alt="Macarons Chocolate" />
                         </Link>
                         <h2>Macarons Chocolate</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/macarronsPretos.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\macarronsPretos.png" alt="Macarons Pretos" />
+                        <Link href="/pictures/macarronsPretos.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\macarronsPretos.png" alt="Macarons Pretos" />
                         </Link>
                         <h2>Macarons de morango pretos</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/bicoDePassaro.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\bicoDePassaro.png" alt="Macarons Chocolate" />
+                        <Link href="/pictures/MacarronsBaunilha.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\MacarronsBaunilha.png" alt="Macarons baunilha" />
+                        </Link>
+                        <h2>Macarons baunilha</h2>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="/pictures/MacarronsBicolores.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\MacarronsBicolores.png" alt="Macarons bi-colores" />
+                        </Link>
+                        <h2>Macarons bi-colores</h2>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link href="/pictures/bicoDePassaro.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\bicoDePassaro.png" alt="Macarons Chocolate" />
                         </Link>
                         <h2>Ponto bico de pássaro</h2>
                     </CardContent>

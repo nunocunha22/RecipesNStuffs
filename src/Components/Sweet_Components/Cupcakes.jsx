@@ -45,8 +45,8 @@ export default function Cupcakes() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/cupcakes2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\cupcakes2.png" alt="cupcakes" />
+                        <Link href="/pictures/cupcakes2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\cupcakes2.png" alt="cupcakes" />
                         </Link>
                         <h2>Cupcakes</h2>
                     </CardContent>

@@ -42,16 +42,16 @@ export default function Waffles() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/wafflz3.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\wafflz3.png" alt="waffles" />
+                        <Link href="/pictures/wafflz3.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\wafflz3.png" alt="waffles" />
                         </Link>
                         <h2>Waffles</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./videos/wafflz2.gif" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\videos\wafflz2.gif" alt="preparação waffles" />
+                        <Link href="/videos/wafflz2.gif" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\videos\wafflz2.gif" alt="preparação waffles" />
                         </Link>
                         <h2>Waffles mágicas</h2>
                     </CardContent>

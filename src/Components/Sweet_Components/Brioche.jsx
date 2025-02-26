@@ -55,24 +55,24 @@ export default function Brioche() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/brioche1.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\brioche1.png" alt="Brioche" />
+                        <Link href="/pictures/brioche1.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="/pictures/brioche1.png" alt="Brioche" />
                         </Link>
                         <h2>Brioche</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/brioche2.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\brioche2.png" alt="Brioche" />
+                        <Link href="/pictures/brioche2.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\brioche2.png" alt="Brioche" />
                         </Link>
                         <h2>Brioche</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/brioche3.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\brioche3.png" alt="Brioche" />
+                        <Link href="/pictures/brioche3.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="\pictures\brioche3.png" alt="Brioche" />
                         </Link>
                         <h2> Brioche</h2>
                     </CardContent>

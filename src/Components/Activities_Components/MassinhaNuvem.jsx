@@ -41,24 +41,24 @@ export default function MassinhaNuvem() {
             <div className="display-grid-pic">
                 <Card>
                     <CardContent>
-                        <Link href="./videos/cloud_dough1.gif" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\videos\Video1_thumbnail.png" alt="massinha de nuvem" />
+                        <Link href="../videos/cloud_dough1.gif" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="..\videos\Video1_thumbnail.png" alt="massinha de nuvem" />
                         </Link>
                         <h2>Video 1</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./videos/cloud_dough2.gif" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\videos\Video2_thumbnail.png" alt="massinha de nuvem" />
+                        <Link href="../videos/cloud_dough2.gif" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="..\videos\Video2_thumbnail.png" alt="massinha de nuvem" />
                         </Link>
                         <h2>Video 2</h2>
                     </CardContent>
                 </Card>
                 <Card>
                     <CardContent>
-                        <Link href="./pictures/minnie.png" rel="noopener noreferrer">
-                            <img className="listPictureComponents" src=".\pictures\minnie.png" alt="minnie" />
+                        <Link href="../pictures/minnie.png" rel="noopener noreferrer">
+                            <img className="listPictureComponents" src="..\pictures\minnie.png" alt="minnie" />
                         </Link>
                         <h2>Minnie?</h2>
                     </CardContent>

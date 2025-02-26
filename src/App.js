@@ -31,6 +31,13 @@ import Donuts from './Components/Sweet_Components/Donuts';
 import Brioche from './Components/Sweet_Components/Brioche';
 import ButterCookies from './Components/Sweet_Components/ButterCookies';
 import CarameloMorango from './Components/Fillings_Components/Caramelo_morango';
+import SaltyWaffles from './Components/Salty_Components/SaltyWaffles';
+import ChiaSlime from './Components/Activities_Components/ChiaSlime';
+import Yalanci from './Components/Sweet_Components/Yalanci';
+import Vienneta from './Components/Sweet_Components/Viennetta';
+import MiniCheesecakes from './Components/Sweet_Components/MiniCheesecakes';
+import Bolachas from './Components/Sweet_Components/Bolachas';
+import BolachasSemOvo from './Components/Sweet_Components/BolachasSemOvo';
 
 
 function App() {
@@ -41,10 +48,10 @@ function App() {
 
   React.useEffect(() => {
     const mediaQuery = window.matchMedia(notDesktopMediaQuery);
-    setisNotDesktop(mediaQuery.matches); // Set initial value
+    setisNotDesktop(mediaQuery.matches);
 
     const handleResize = (e) => {
-      setisNotDesktop(e.matches); // Update value on resize
+      setisNotDesktop(e.matches);
     };
 
     mediaQuery.addEventListener('change', handleResize);
@@ -73,11 +80,11 @@ function App() {
         ) : (
           <div className="App-header">
             <Link href="/">Homepage</Link>
-            <Link href="sweet">Doces</Link>
-            <Link href="fillings">Recheios</Link>
-            <Link href="salty">Salgados</Link>
-            <Link href="activities">Atividades</Link>
-            <Link href="measurements">Medidas</Link>
+            <Link href="/doces">Doces</Link>
+            <Link href="/recheios">Recheios</Link>
+            <Link href="/salgados">Salgados</Link>
+            <Link href="/atividades">Atividades</Link>
+            <Link href="/medidas">Medidas</Link>
           </div>
         )}
       </header>
@@ -85,39 +92,46 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
-          <Route path="sweet" element={<Sweet />} />
-          <Route path="fillings" element={<Fillings />} />
-          <Route path="salty" element={<Salty />} />
-          <Route path="activities" element={<Activities />} />
-          <Route path="measurements" element={<Measurements />} />
+          <Route path="/doces" element={<Sweet />} />
+          <Route path="/recheios" element={<Fillings />} />
+          <Route path="/salgados" element={<Salty />} />
+          <Route path="/atividades" element={<Activities />} />
+          <Route path="/medidas" element={<Measurements />} />
 
           {/* ACTIVITIES */}
 
-          <Route path="massinha_nuvem" element={<MassinhaNuvem />} />
+          <Route path="atividades/massinha_nuvem" element={<MassinhaNuvem />} />
+          <Route path="atividades/slime_com_chia" element={<ChiaSlime />} />
 
           {/* SALTY */}
 
-          <Route path="croque_monsieur" element={<CroqueMonsieur />} />
+          <Route path="salgados/croque_monsieur" element={<CroqueMonsieur />} />
+          <Route path="salgados/waffles_bacon_e_queijo" element={<SaltyWaffles />} />
 
           {/* SWEET */}
 
-          <Route path="biscoitosAvelã" element={<BiscoitosAvelã />} />
-          <Route path="brioche" element={<Brioche />} />
-          <Route path="butterCookies" element={<ButterCookies />} />
-          <Route path="cookies" element={<Cookies />} />
-          <Route path="crepes" element={<Crepes />} />
-          <Route path="cupcakes" element={<Cupcakes />} />
-          <Route path="donuts" element={<Donuts />} />
-          <Route path="macarrons" element={<Macarrons />} />
-          <Route path="palmiers" element={<Palmiers />} />
-          <Route path="pipocas" element={<Pipocas />} />
-          <Route path="suspiros" element={<Suspiros />} />
-          <Route path="waffles" element={<Waffles />} />
+          <Route path="doces/biscoitosAvelã" element={<BiscoitosAvelã />} />
+          <Route path="doces/bolachas" element={<Bolachas />} />
+          <Route path="doces/bolachas_sem_ovo" element={<BolachasSemOvo />} />
+          <Route path="doces/brioche" element={<Brioche />} />
+          <Route path="doces/butterCookies" element={<ButterCookies />} />
+          <Route path="doces/cookies" element={<Cookies />} />
+          <Route path="doces/crepes" element={<Crepes />} />
+          <Route path="doces/cupcakes" element={<Cupcakes />} />
+          <Route path="doces/donuts" element={<Donuts />} />
+          <Route path="doces/macarrons" element={<Macarrons />} />
+          <Route path="doces/miniCheesecakes" element={<MiniCheesecakes />} />
+          <Route path="doces/palmiers" element={<Palmiers />} />
+          <Route path="doces/pipocas" element={<Pipocas />} />
+          <Route path="doces/suspiros" element={<Suspiros />} />
+          <Route path="doces/vienneta" element={<Vienneta />} />
+          <Route path="doces/waffles" element={<Waffles />} />
+          <Route path="doces/yalanci" element={<Yalanci />} />
 
           {/* FILLINGS */}
 
-          <Route path="recheio_limao" element={<RecheioLimao />} />
-          <Route path="caramelo_morango" element={<CarameloMorango />} />
+          <Route path="recheios/recheio_limao" element={<RecheioLimao />} />
+          <Route path="recheios/caramelo_morango" element={<CarameloMorango />} />
 
         </Routes>
       </BrowserRouter>
