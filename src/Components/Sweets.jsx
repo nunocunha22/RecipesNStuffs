@@ -20,7 +20,7 @@ export default function Sweet() {
                 <Card>
                     <CardContent>
                         <Link className="listLink" href="doces/bolachas">
-                            <img className="listPicture" src=".\pictures\bolachaass.png" alt="bolachas" />
+                            <img className="listPicture" src=".\pictures\Bolachaass.png" alt="bolachas" />
                             <h2>bolachas</h2>
                         </Link>
                     </CardContent>
@@ -28,7 +28,7 @@ export default function Sweet() {
                 <Card>
                     <CardContent>
                         <Link className="listLink" href="doces/bolachas_sem_ovo">
-                            <img className="listPicture" src=".\pictures\bolachass.png" alt="bolachas" />
+                            <img className="listPicture" src=".\pictures\Bolachass.png" alt="bolachas" />
                             <h2>bolachas (sem ovo)</h2>
                         </Link>
                     </CardContent>
