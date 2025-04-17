@@ -45,6 +45,11 @@ code {
     z-index: 999;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .sweetPicture {
     background-image: url(../../public/pictures/sweet.png);
     background-size: contain;

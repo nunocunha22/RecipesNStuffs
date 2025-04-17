@@ -99,6 +99,14 @@ export default function Sweet() {
                 </Card>
                 <Card>
                     <CardContent>
+                        <Link className="listLink" href="doces/mousse_chocolate">
+                            <img className="listPicture" src=".\pictures\MousseChocolate1.png" alt="Mousse Chocolate" />
+                            <h2>Mousse Chocolate</h2>
+                        </Link>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
                         <Link className="listLink" href="doces/palmiers">
                             <img className="listPicture" src=".\pictures\palmier.jpg" alt="palmiers" />
                             <h2>Palmiers</h2>

@@ -3,45 +3,54 @@ import './App.css';
 import './styles/theme.scss';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Link from '@mui/material/Link';
-import Homepage from './Components/Homepage';
-import Salty from './Components/Salty';
-import Sweet from './Components/Sweets';
-import Fillings from './Components/Fillings';
-import Activities from './Components/Activities';
-import Measurements from './Components/Measurements';
-
-import MassinhaNuvem from './Components/Activities_Components/MassinhaNuvem';
-
-import BiscoitosAvelã from './Components/Sweet_Components/BiscoitosAvelã';
-import Cookies from './Components/Sweet_Components/Cookies';
-import Macarrons from './Components/Sweet_Components/Macarrons';
-import Palmiers from './Components/Sweet_Components/Palmiers';
-import Pipocas from './Components/Sweet_Components/Pipocas';
-import Suspiros from './Components/Sweet_Components/Suspiros';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Button } from '@mui/material';
+
 import SwipeablePhoneDrawer from './Components/Custom_Components/SwipeablePhoneDrawer';
-import CroqueMonsieur from './Components/Salty_Components/CroqueMonsieur';
-import Waffles from './Components/Sweet_Components/Waffles';
-import Cupcakes from './Components/Sweet_Components/Cupcakes';
-import RecheioLimao from './Components/Fillings_Components/Recheio_limão';
-import Crepes from './Components/Sweet_Components/Crepes';
-import Donuts from './Components/Sweet_Components/Donuts';
-import Brioche from './Components/Sweet_Components/Brioche';
-import ButterCookies from './Components/Sweet_Components/ButterCookies';
-import CarameloMorango from './Components/Fillings_Components/Caramelo_morango';
-import SaltyWaffles from './Components/Salty_Components/SaltyWaffles';
+
+import Homepage from './Components/Homepage';
+import Activities from './Components/Activities';
+import Fillings from './Components/Fillings';
+import Measurements from './Components/Measurements';
+import Salty from './Components/Salty';
+import Sweet from './Components/Sweets';
+
 import ChiaSlime from './Components/Activities_Components/ChiaSlime';
-import Yalanci from './Components/Sweet_Components/Yalanci';
-import Vienneta from './Components/Sweet_Components/Viennetta';
-import MiniCheesecakes from './Components/Sweet_Components/MiniCheesecakes';
+import MassinhaNuvem from './Components/Activities_Components/MassinhaNuvem';
+
+import CarameloMorango from './Components/Fillings_Components/Caramelo_morango';
+import RecheioBaunilha from './Components/Fillings_Components/Recheio_baunilha';
+import RecheioCaramelo from './Components/Fillings_Components/Recheio_caramelo';
+import RecheioChocolate from './Components/Fillings_Components/Recheio_chocolate';
+import RecheioLimao from './Components/Fillings_Components/Recheio_limão';
+
+import CroqueMonsieur from './Components/Salty_Components/CroqueMonsieur';
+import Empadas from './Components/Salty_Components/Empadas';
+import SaltyWaffles from './Components/Salty_Components/SaltyWaffles';
+
+import BiscoitosAvelã from './Components/Sweet_Components/BiscoitosAvelã';
 import Bolachas from './Components/Sweet_Components/Bolachas';
 import BolachasSemOvo from './Components/Sweet_Components/BolachasSemOvo';
+import Brioche from './Components/Sweet_Components/Brioche';
+import ButterCookies from './Components/Sweet_Components/ButterCookies';
+import Crepes from './Components/Sweet_Components/Crepes';
+import Cookies from './Components/Sweet_Components/Cookies';
+import Cupcakes from './Components/Sweet_Components/Cupcakes';
+import Donuts from './Components/Sweet_Components/Donuts';
+import Macarrons from './Components/Sweet_Components/Macarrons';
+import MiniCheesecakes from './Components/Sweet_Components/MiniCheesecakes';
+import MousseChocolate from './Components/Sweet_Components/MousseChocolate';
+import Palmiers from './Components/Sweet_Components/Palmiers';
+import Pipocas from './Components/Sweet_Components/Pipocas';
+import Suspiros from './Components/Sweet_Components/Suspiros';
+import Vienneta from './Components/Sweet_Components/Viennetta';
+import Waffles from './Components/Sweet_Components/Waffles';
+import Yalanci from './Components/Sweet_Components/Yalanci';
 
 
 function App() {
-  //Media Query
+  //MEDIA QUERY
 
   const [isNotDesktop, setisNotDesktop] = React.useState(false);
   const notDesktopMediaQuery = '(max-width: 820px)';
@@ -106,6 +115,7 @@ function App() {
           {/* SALTY */}
 
           <Route path="salgados/croque_monsieur" element={<CroqueMonsieur />} />
+          <Route path="salgados/empadas" element={<Empadas />} />
           <Route path="salgados/waffles_bacon_e_queijo" element={<SaltyWaffles />} />
 
           {/* SWEET */}
@@ -121,6 +131,7 @@ function App() {
           <Route path="doces/donuts" element={<Donuts />} />
           <Route path="doces/macarrons" element={<Macarrons />} />
           <Route path="doces/miniCheesecakes" element={<MiniCheesecakes />} />
+          <Route path="doces/mousse_chocolate" element={<MousseChocolate />} />
           <Route path="doces/palmiers" element={<Palmiers />} />
           <Route path="doces/pipocas" element={<Pipocas />} />
           <Route path="doces/suspiros" element={<Suspiros />} />
@@ -130,8 +141,12 @@ function App() {
 
           {/* FILLINGS */}
 
-          <Route path="recheios/recheio_limao" element={<RecheioLimao />} />
           <Route path="recheios/caramelo_morango" element={<CarameloMorango />} />
+          <Route path="recheios/recheio_baunilha" element={<RecheioBaunilha />} />
+          <Route path="recheios/recheio_caramelo" element={<RecheioCaramelo />} />
+          <Route path="recheios/recheio_chocolate" element={<RecheioChocolate />} />
+          <Route path="recheios/recheio_limao" element={<RecheioLimao />} />
+
 
         </Routes>
       </BrowserRouter>

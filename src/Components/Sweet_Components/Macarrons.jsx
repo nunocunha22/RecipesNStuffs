@@ -46,14 +46,15 @@ export default function Macarrons() {
                     <li>Quando acabar bater ligeiramente com o tabuleiro 2 ou 3 vezes para retirar possiveis bolhas de ar dos macarrons. É possivel que existam bolhas de ar a formar-se mas que não "arrebetem". Pode usar-se um palito, por exemplo, para furar essa bolhas.</li>
                     <li>Deixar repousar cerca de 1h num local com pouca humidade (evitar a cozinha, principalmente se se quiser lavar a loiça) até formar uma capa que, ao toque, já não agarre ao dedo.</li>
                     <li>Ao fim dessa hora tocar delicadamente em alguns macarrons (geralmente escolho os menos bonitos para estes testes) e se já não colar ao dedo estão prontos para enfornar.</li>
-                    <p className="nota"><strong>Nota: Já me aconteceu, em dias muito húmidos, ter de deixar os macarrons cerca de 2h para que fiquem secos ao toque</strong>.</p>
+                    <p className="nota"><strong>Nota: </strong>Já me aconteceu, em dias muito húmidos, ter de deixar os macarrons cerca de 2h para que fiquem secos ao toque.</p>
                     <li>Pré-aquecer o forno a 140ºC.</li>
                     <li>Quando já estiver quente, coloque o tabuleiro no forno durante cerca de 17min (forno com a ventoinha ligada).</li>
                     <li>Ao fim desse tempo retirar o tabuleiro do forno. Colocar o tapete de silicone (ou o papel manteiga) com os macarrons em cima da bancada</li>
-                    <p className="nota"><strong>Nota: geralmente, depois de retirados do forno, deixo-os cerca de 5min no tabuleiro para que acabem de cozer por baixo</strong>.</p>
+                    <p className="nota"><strong>Nota: </strong>geralmente, depois de retirados do forno, deixo-os cerca de 5min no tabuleiro para que acabem de cozer por baixo.</p>
                     <li>Esperar cerca de 1h (ou até estarem completamente frios) para retirar os macarrons do tapete ou do papel.</li>
                 </ol>
             </ul>
+            <p className="nota"><strong>Nota: Para escolher o recheio desejado ir à pagina Recheio ou clicar <a href="/recheios">aqui</a></strong></p>
             <ul>
                 <li>
                     <h2>Galeria de imagens</h2>
