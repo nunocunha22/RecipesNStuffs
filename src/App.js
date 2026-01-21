@@ -47,6 +47,11 @@ import Suspiros from './Components/Sweet_Components/Suspiros';
 import Vienneta from './Components/Sweet_Components/Viennetta';
 import Waffles from './Components/Sweet_Components/Waffles';
 import Yalanci from './Components/Sweet_Components/Yalanci';
+import Brigadeiros from './Components/Sweet_Components/Brigadeiros';
+import Tiramisu from './Components/Sweet_Components/Tiramisù';
+import Panquecas from './Components/Sweet_Components/Panquecas';
+import Pudins from './Components/Sweet_Components/Pudins';
+import PanquecasBaconQueijo from './Components/Salty_Components/PanquecasBaconQueijo';
 
 
 function App() {
@@ -116,6 +121,7 @@ function App() {
 
           <Route path="salgados/croque_monsieur" element={<CroqueMonsieur />} />
           <Route path="salgados/empadas" element={<Empadas />} />
+          <Route path="salgados/panquecas" element={<PanquecasBaconQueijo />} />
           <Route path="salgados/waffles_bacon_e_queijo" element={<SaltyWaffles />} />
 
           {/* SWEET */}
@@ -123,6 +129,7 @@ function App() {
           <Route path="doces/biscoitosAvelã" element={<BiscoitosAvelã />} />
           <Route path="doces/bolachas" element={<Bolachas />} />
           <Route path="doces/bolachas_sem_ovo" element={<BolachasSemOvo />} />
+          <Route path="doces/brigadeiros" element={<Brigadeiros />} />
           <Route path="doces/brioche" element={<Brioche />} />
           <Route path="doces/butterCookies" element={<ButterCookies />} />
           <Route path="doces/cookies" element={<Cookies />} />
@@ -133,8 +140,11 @@ function App() {
           <Route path="doces/miniCheesecakes" element={<MiniCheesecakes />} />
           <Route path="doces/mousse_chocolate" element={<MousseChocolate />} />
           <Route path="doces/palmiers" element={<Palmiers />} />
+          <Route path="doces/panquecas" element={<Panquecas />} />
           <Route path="doces/pipocas" element={<Pipocas />} />
+          <Route path="doces/pudins" element={<Pudins />} />
           <Route path="doces/suspiros" element={<Suspiros />} />
+          <Route path="doces/tiramisu" element={<Tiramisu />} />
           <Route path="doces/vienneta" element={<Vienneta />} />
           <Route path="doces/waffles" element={<Waffles />} />
           <Route path="doces/yalanci" element={<Yalanci />} />

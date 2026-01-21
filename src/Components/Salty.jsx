@@ -23,6 +23,14 @@ export default function Salty() {
                 </Card>
                 <Card>
                     <CardContent>
+                        <Link className="listLink" href="salgados/panquecas">
+                            <img className="listPicture" src=".\pictures\PanquecasQueijoBaconn.png" alt="panqueca salgada" />
+                            <h2>Panquecas bacon e queijo</h2>
+                        </Link>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
                         <Link className="listLink" href="salgados/waffles_bacon_e_queijo">
                             <img className="listPicture" src=".\pictures\SaltyWaffless.png" alt="Waffle salgado" />
                             <h2>Waffle bacon e queijo</h2>

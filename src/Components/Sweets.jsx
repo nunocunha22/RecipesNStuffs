@@ -21,7 +21,7 @@ export default function Sweet() {
                     <CardContent>
                         <Link className="listLink" href="doces/bolachas">
                             <img className="listPicture" src=".\pictures\Bolachaass.png" alt="bolachas" />
-                            <h2>bolachas</h2>
+                            <h2>Bolachas</h2>
                         </Link>
                     </CardContent>
                 </Card>
@@ -29,7 +29,15 @@ export default function Sweet() {
                     <CardContent>
                         <Link className="listLink" href="doces/bolachas_sem_ovo">
                             <img className="listPicture" src=".\pictures\Bolachass.png" alt="bolachas" />
-                            <h2>bolachas (sem ovo)</h2>
+                            <h2>Bolachas (sem ovo)</h2>
+                        </Link>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link className="listLink" href="doces/brigadeiros">
+                            <img className="listPicture" src=".\pictures\Brigadeiross.png" alt="brigadeiros" />
+                            <h2>Brigadeiros</h2>
                         </Link>
                     </CardContent>
                 </Card>
@@ -115,6 +123,14 @@ export default function Sweet() {
                 </Card>
                 <Card>
                     <CardContent>
+                        <Link className="listLink" href="doces/panquecas">
+                            <img className="listPicture" src=".\pictures\Panquecass.png" alt="panquecas" />
+                            <h2>Panquecas</h2>
+                        </Link>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
                         <Link className="listLink" href="doces/pipocas">
                             <img className="listPicture" src=".\pictures\pipocasColoridas.png" alt="pipocas coloridas" />
                             <h2>Pipocas</h2>
@@ -123,9 +139,25 @@ export default function Sweet() {
                 </Card>
                 <Card>
                     <CardContent>
+                        <Link className="listLink" href="doces/pudins">
+                            <img className="listPicture" src=".\pictures\Pudinss.png" alt="Pudim" />
+                            <h2>Pudins</h2>
+                        </Link>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
                         <Link className="listLink" href="doces/suspiros">
                             <img className="listPicture" src=".\pictures\suspiros.jpg" alt="suspiros" />
                             <h2>Suspiros</h2>
+                        </Link>
+                    </CardContent>
+                </Card>
+                <Card>
+                    <CardContent>
+                        <Link className="listLink" href="doces/tiramisu">
+                            <img className="listPicture" src=".\pictures\Tiramsuu.png" alt="tiramisù" />
+                            <h2>Tiramisu Speculoos</h2>
                         </Link>
                     </CardContent>
                 </Card>

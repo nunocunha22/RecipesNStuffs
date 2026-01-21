@@ -230,5 +230,23 @@ li {
         margin-right: 4px;
         margin-top: 0;
     }
+}
+
+.preservTime {
+    color: #0006ff;
+    display: flex;
+
+    p {
+        &:first-child {
+            color: #0006ff;
+            font-size: 18px;
+            margin-top: -3px;
+            margin-right: 1px;
+        }
+
+        color: black;
+        margin-right: 4px;
+        margin-top: 0;
+    }
 
 }
